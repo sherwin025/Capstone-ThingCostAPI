@@ -1,16 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Dion Stoade",
-      "hourlySalary": 13.45,
-      "email": "dstoade0@cornell.edu"
-    },
-    {
-      "id": 2,
-      "name": "Windy Thorneloe",
-      "hourlySalary": 20.65,
-      "email": "wthorneloe1@usa.gov"
+      "id": 3,
+      "name": "sherwin j vargas",
+      "email": "svargas025@gmail.com",
+      "hourlySalary": 51
     }
   ],
   "itemtypes": [
@@ -25,56 +19,55 @@
   ],
   "useritems": [
     {
-      "id": 1,
-      "name": "Iphone 15",
-      "itemtypeId": 2,
-      "userId": 1,
-      "buydifficulty": 2,
-      "need": false,
-      "purchased": false,
-      "price": 1400
-    },
-    {
-      "id": 2,
-      "name": "wedding shoes",
-      "itemtypeId": 1,
-      "userId": 2,
-      "buydifficulty": 1,
-      "need": true,
-      "purchased": false,
-      "price": 100
-    },
-    {
       "id": 3,
-      "name": "lunch",
+      "itemtypeId": 2,
+      "price": 2,
+      "name": "Nashville North",
+      "need": false,
+      "userId": 3,
+      "hoursNeeded": 0.0392156862745098,
+      "buydifficultyId": null,
+      "purchased": false
+    },
+    {
+      "id": 7,
       "itemtypeId": 1,
-      "userId": 2,
-      "buydifficulty": 1,
+      "price": 4,
+      "name": "Nashville North",
       "need": true,
-      "purchased": true,
-      "price": 10
+      "userId": 3,
+      "hoursNeeded": 0.0784313725490196,
+      "buydifficultyId": null,
+      "purchased": false
+    },
+    {
+      "id": 8,
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "eminems",
+      "need": false,
+      "userId": 3,
+      "hoursNeeded": 0.058823529411764705,
+      "buydifficultyId": null,
+      "purchased": true
+    },
+    {
+      "id": 9,
+      "itemtypeId": 2,
+      "price": 2,
+      "name": "Nashville Southie",
+      "need": true,
+      "userId": 3,
+      "hoursNeeded": 0.0392156862745098,
+      "buydifficultyId": null,
+      "purchased": true
     }
   ],
   "useritemsnotes": [
     {
-      "id": 1,
-      "userItemsId": 2,
-      "description": "need for johns wedding"
-    },
-    {
-      "id": 2,
-      "userItemsId": 2,
-      "description": "need for graduation party"
-    },
-    {
-      "id": 3,
-      "userItemsId": 1,
-      "description": "new feature is dope"
-    },
-    {
-      "id": 4,
-      "userItemsId": 1,
-      "description": "released septemver 2024"
+      "description": "yahoo",
+      "userItemsId": 3,
+      "id": 5
     }
   ],
   "moneyresources": [
@@ -141,98 +134,20 @@
       "description": "control and analyze your grocery spending"
     }
   ],
-  "usermoneyresources": [
+  "usermoneyresources": [],
+  "usertipsandtricks": [],
+  "buydifficultys": [
     {
       "id": 1,
-      "userId": 1,
-      "moneyResourcesId": 2
+      "description": "Easy"
     },
     {
       "id": 2,
-      "userId": 1,
-      "moneyResourcesId": 4
+      "description": "Medium"
     },
     {
       "id": 3,
-      "userId": 2,
-      "moneyResourcesId": 1
-    },
-    {
-      "id": 4,
-      "userId": 2,
-      "moneyResourcesId": 2
-    },
-    {
-      "id": 5,
-      "userId": 2,
-      "moneyResourcesId": 3
-    },
-    {
-      "id": 6,
-      "userId": 2,
-      "moneyResourcesId": 4
-    }
-  ],
-  "usertipsandtricks": [
-    {
-      "id": 1,
-      "userId": 1,
-      "tipsAndTricksId": 1
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "tipsAndTricksId": 2
-    },
-    {
-      "id": 3,
-      "userId": 2,
-      "tipsAndTricksId": 3
-    },
-    {
-      "id": 4,
-      "userId": 2,
-      "tipsAndTricksId": 4
-    },
-    {
-      "id": 5,
-      "userId": 2,
-      "tipsAndTricksId": 5
-    },
-    {
-      "id": 6,
-      "userId": 2,
-      "tipsAndTricksId": 6
-    },
-    {
-      "id": 7,
-      "userId": 1,
-      "tipsAndTricksId": 7
-    },
-    {
-      "id": 8,
-      "userId": 1,
-      "tipsAndTricksId": 8
-    },
-    {
-      "id": 9,
-      "userId": 1,
-      "tipsAndTricksId": 9
-    },
-    {
-      "id": 10,
-      "userId": 1,
-      "tipsAndTricksId": 10
-    },
-    {
-      "id": 11,
-      "userId": 2,
-      "tipsAndTricksId": 3
-    },
-    {
-      "id": 12,
-      "userId": 2,
-      "tipsAndTricksId": 7
+      "description": "Hard"
     }
   ]
 }
