@@ -5,6 +5,12 @@
       "name": "sherwin j vargas",
       "email": "svargas025@gmail.com",
       "hourlySalary": 51
+    },
+    {
+      "id": 4,
+      "name": "john",
+      "email": "elliot@elliot.com",
+      "hourlySalary": 18
     }
   ],
   "itemtypes": [
@@ -61,6 +67,61 @@
       "hoursNeeded": 0.0392156862745098,
       "buydifficultyId": null,
       "purchased": true
+    },
+    {
+      "id": 10,
+      "itemtypeId": 2,
+      "price": 3,
+      "name": "Nashville North",
+      "need": false,
+      "userId": 3,
+      "hoursNeeded": 0.058823529411764705,
+      "buydifficultyId": null,
+      "purchased": false
+    },
+    {
+      "id": 11,
+      "itemtypeId": 2,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 3,
+      "hoursNeeded": 0.058823529411764705,
+      "buydifficultyId": null,
+      "purchased": false
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "car",
+      "need": false,
+      "userId": 3,
+      "hoursNeeded": 0.058823529411764705,
+      "buydifficulty": 0,
+      "purchased": false,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "sherwin vargas",
+      "need": false,
+      "userId": 4,
+      "hoursNeeded": 0.18181818181818182,
+      "buydifficultyId": 1,
+      "purchased": false
+    },
+    {
+      "id": 14,
+      "itemtypeId": 1,
+      "price": 4,
+      "name": "eminems",
+      "need": false,
+      "userId": 4,
+      "hoursNeeded": 0.2222222222222222,
+      "buydifficultyId": 2,
+      "purchased": false
     }
   ],
   "useritemsnotes": [
@@ -68,6 +129,11 @@
       "description": "yahoo",
       "userItemsId": 3,
       "id": 5
+    },
+    {
+      "id": 6,
+      "description": "ready!!",
+      "userItemsId": 13
     }
   ],
   "moneyresources": [
