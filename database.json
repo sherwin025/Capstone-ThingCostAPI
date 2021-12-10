@@ -1,141 +1,95 @@
 {
   "users": [
     {
-      "id": 3,
       "name": "sherwin j vargas",
+      "hourlySalary": "20",
       "email": "svargas025@gmail.com",
-      "hourlySalary": 51
-    },
-    {
-      "id": 4,
-      "name": "john",
-      "email": "elliot@elliot.com",
-      "hourlySalary": 18
+      "id": 1
     }
   ],
   "itemtypes": [
     {
       "id": 1,
-      "description": "Sneakers"
+      "description": "shoes"
     },
     {
       "id": 2,
-      "description": "Phone"
-    }
-  ],
-  "useritems": [
+      "description": "appliance"
+    },
     {
       "id": 3,
-      "itemtypeId": 2,
-      "price": 2,
-      "name": "Nashville North",
-      "need": false,
-      "userId": 3,
-      "hoursNeeded": 0.0392156862745098,
-      "buydifficultyId": null,
-      "purchased": false
+      "description": "electronic"
     },
     {
-      "id": 7,
-      "itemtypeId": 1,
-      "price": 4,
-      "name": "Nashville North",
-      "need": true,
-      "userId": 3,
-      "hoursNeeded": 0.0784313725490196,
-      "buydifficultyId": null,
-      "purchased": false
+      "id": 4,
+      "description": "toys"
     },
     {
-      "id": 8,
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "eminems",
-      "need": false,
-      "userId": 3,
-      "hoursNeeded": 0.058823529411764705,
-      "buydifficultyId": null,
-      "purchased": true
-    },
-    {
-      "id": 9,
-      "itemtypeId": 2,
-      "price": 2,
-      "name": "Nashville Southie",
-      "need": true,
-      "userId": 3,
-      "hoursNeeded": 0.0392156862745098,
-      "buydifficultyId": null,
-      "purchased": true
-    },
-    {
-      "id": 10,
-      "itemtypeId": 2,
-      "price": 3,
-      "name": "Nashville North",
-      "need": false,
-      "userId": 3,
-      "hoursNeeded": 0.058823529411764705,
-      "buydifficultyId": null,
-      "purchased": false
-    },
-    {
-      "id": 11,
-      "itemtypeId": 2,
-      "price": 3,
-      "name": "cars",
-      "need": true,
-      "userId": 3,
-      "hoursNeeded": 0.058823529411764705,
-      "buydifficultyId": null,
-      "purchased": false
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "car",
-      "need": false,
-      "userId": 3,
-      "hoursNeeded": 0.058823529411764705,
-      "buydifficulty": 0,
-      "purchased": false,
-      "id": 12
-    },
-    {
-      "id": 13,
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "sherwin vargas",
-      "need": false,
-      "userId": 4,
-      "hoursNeeded": 0.18181818181818182,
-      "buydifficultyId": 1,
-      "purchased": false
-    },
-    {
-      "id": 14,
-      "itemtypeId": 1,
-      "price": 4,
-      "name": "eminems",
-      "need": false,
-      "userId": 4,
-      "hoursNeeded": 0.2222222222222222,
-      "buydifficultyId": 2,
-      "purchased": false
-    }
-  ],
-  "useritemsnotes": [
-    {
-      "description": "yahoo",
-      "userItemsId": 3,
-      "id": 5
+      "id": 5,
+      "description": "entertainment"
     },
     {
       "id": 6,
-      "description": "ready!!",
-      "userItemsId": 13
+      "description": "bills"
+    },
+    {
+      "id": 7,
+      "description": "credit cards"
+    },
+    {
+      "id": 8,
+      "description": "food"
+    },
+    {
+      "id": 9,
+      "description": "work"
     }
   ],
+  "useritems": [
+  ],
+  "useritemtypes": [
+    {
+      "description": "electronic",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "description": "shoes",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "description": "toys",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "description": "entertainment",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "description": "appliance",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "description": "credit cards",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "description": "bills",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "description": "food",
+      "userId": 1,
+      "id": 8
+    }
+  ],
+  "useritemsnotes": [],
   "moneyresources": [
     {
       "id": 1,
@@ -200,8 +154,84 @@
       "description": "control and analyze your grocery spending"
     }
   ],
-  "usermoneyresources": [],
-  "usertipsandtricks": [],
+  "usermoneyresources": [
+    {
+      "desciption": "earn cash back shopping",
+      "url": "www.rakuten.com",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "desciption": "find coupon codes online",
+      "url": "www.retailmenot.com",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "desciption": "offering deals and discounts on a variety of services and products ",
+      "url": "www.groupon.com",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "desciption": "search flights accross dates and multiple companies to compare and save ",
+      "url": "www.google.com/travel/flights",
+      "userId": 1,
+      "id": 4
+    }
+  ],
+  "usertipsandtricks": [
+    {
+      "desciption": "Learn to budget and understand your finances",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "desciption": "Get out of debt!!!!",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "desciption": "research  50/30/20 rule",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "desciption": "Create a designated savings account and",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "desciption": "automate your savings and bills",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "desciption": "cut back and control your utility bills",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "desciption": "Side Hustles!!!",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "desciption": "Check for and cancell unused subscriptions",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "desciption": "Use this app before splurging!",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "desciption": "control and analyze your grocery spending",
+      "userId": 1,
+      "id": 10
+    }
+  ],
   "buydifficultys": [
     {
       "id": 1,
