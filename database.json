@@ -1,10 +1,10 @@
 {
   "users": [
     {
+      "id": 1,
       "name": "sherwin j vargas",
-      "hourlySalary": "20",
       "email": "svargas025@gmail.com",
-      "id": 1
+      "hourlySalary": 22
     }
   ],
   "itemtypes": [
@@ -46,15 +46,224 @@
     }
   ],
   "useritems": [
+    {
+      "id": 1,
+      "useritemtypeId": null,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 3,
+      "purchased": true
+    },
+    {
+      "id": 2,
+      "useritemtypeId": null,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 1,
+      "purchased": true
+    },
+    {
+      "id": 3,
+      "useritemtypeId": null,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 2,
+      "purchased": true
+    },
+    {
+      "id": 4,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true
+    },
+    {
+      "id": 5,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "id": 6
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "id": 7
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "id": 8
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "id": 9
+    },
+    {
+      "id": 10,
+      "useritemtypeId": null,
+      "price": 4,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 2,
+      "purchased": false
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": false
+    },
+    {
+      "itemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "id": 13
+    },
+    {
+      "id": 14,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": false
+    },
+    {
+      "id": 15,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": false
+    },
+    {
+      "id": 16,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 0,
+      "purchased": false
+    },
+    {
+      "id": 19,
+      "useritemtypeId": null,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 3,
+      "purchased": false
+    },
+    {
+      "id": 20,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 1,
+      "purchased": false
+    },
+    {
+      "id": 21,
+      "useritemtypeId": 1,
+      "price": 3,
+      "name": "cars",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 0.15,
+      "buydifficultyId": 2,
+      "purchased": false
+    }
   ],
   "useritemtypes": [
     {
-      "description": "electronic",
+      "description": "shoes",
       "userId": 1,
       "id": 1
     },
     {
-      "description": "shoes",
+      "description": "electronic",
       "userId": 1,
       "id": 2
     },
@@ -64,22 +273,22 @@
       "id": 3
     },
     {
-      "description": "entertainment",
+      "description": "appliance",
       "userId": 1,
       "id": 4
     },
     {
-      "description": "appliance",
+      "description": "bills",
       "userId": 1,
       "id": 5
     },
     {
-      "description": "credit cards",
+      "description": "entertainment",
       "userId": 1,
       "id": 6
     },
     {
-      "description": "bills",
+      "description": "credit cards",
       "userId": 1,
       "id": 7
     },
@@ -87,9 +296,35 @@
       "description": "food",
       "userId": 1,
       "id": 8
+    },
+    {
+      "description": "work",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "description": "city",
+      "userId": 1,
+      "id": 10
     }
   ],
-  "useritemsnotes": [],
+  "useritemsnotes": [
+    {
+      "description": "yahoo",
+      "userItemsId": 19,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "description": "yggg",
+      "userItemsId": 19
+    },
+    {
+      "description": "yahoo",
+      "userItemsId": 19,
+      "id": 4
+    }
+  ],
   "moneyresources": [
     {
       "id": 1,
@@ -127,7 +362,7 @@
     },
     {
       "id": 4,
-      "description": "Create a designated savings account and"
+      "description": "Create a designated savings and spending account"
     },
     {
       "id": 5,
@@ -143,7 +378,7 @@
     },
     {
       "id": 8,
-      "description": "Check for and cancell unused subscriptions"
+      "description": "Check for and cancel unused subscriptions"
     },
     {
       "id": 9,
@@ -156,25 +391,25 @@
   ],
   "usermoneyresources": [
     {
-      "desciption": "earn cash back shopping",
+      "description": "earn cash back shopping",
       "url": "www.rakuten.com",
       "userId": 1,
       "id": 1
     },
     {
-      "desciption": "find coupon codes online",
+      "description": "find coupon codes online",
       "url": "www.retailmenot.com",
       "userId": 1,
       "id": 2
     },
     {
-      "desciption": "offering deals and discounts on a variety of services and products ",
+      "description": "offering deals and discounts on a variety of services and products ",
       "url": "www.groupon.com",
       "userId": 1,
       "id": 3
     },
     {
-      "desciption": "search flights accross dates and multiple companies to compare and save ",
+      "description": "search flights accross dates and multiple companies to compare and save ",
       "url": "www.google.com/travel/flights",
       "userId": 1,
       "id": 4
@@ -182,52 +417,52 @@
   ],
   "usertipsandtricks": [
     {
-      "desciption": "Learn to budget and understand your finances",
+      "description": "Learn to budget and understand your finances",
       "userId": 1,
       "id": 1
     },
     {
-      "desciption": "Get out of debt!!!!",
+      "description": "Get out of debt!!!!",
       "userId": 1,
       "id": 2
     },
     {
-      "desciption": "research  50/30/20 rule",
+      "description": "research  50/30/20 rule",
       "userId": 1,
       "id": 3
     },
     {
-      "desciption": "Create a designated savings account and",
+      "description": "Create a designated savings and spending account",
       "userId": 1,
       "id": 4
     },
     {
-      "desciption": "automate your savings and bills",
+      "description": "automate your savings and bills",
       "userId": 1,
       "id": 5
     },
     {
-      "desciption": "cut back and control your utility bills",
+      "description": "cut back and control your utility bills",
       "userId": 1,
       "id": 6
     },
     {
-      "desciption": "Side Hustles!!!",
+      "description": "Side Hustles!!!",
       "userId": 1,
       "id": 7
     },
     {
-      "desciption": "Check for and cancell unused subscriptions",
+      "description": "Check for and cancel unused subscriptions",
       "userId": 1,
       "id": 8
     },
     {
-      "desciption": "Use this app before splurging!",
+      "description": "Use this app before splurging!",
       "userId": 1,
       "id": 9
     },
     {
-      "desciption": "control and analyze your grocery spending",
+      "description": "control and analyze your grocery spending",
       "userId": 1,
       "id": 10
     }
