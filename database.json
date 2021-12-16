@@ -53,18 +53,6 @@
   ],
   "useritems": [
     {
-      "id": 1,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 2,
-      "purchased": true,
-      "purchaseby": "2021-12-09"
-    },
-    {
       "id": 2,
       "useritemtypeId": null,
       "price": 3,
@@ -449,7 +437,7 @@
   "useritemsnotes": [
     {
       "id": 4,
-      "description": "dgsadLKFagsdflkasdh",
+      "description": "dgsadLKFagsdflkasdhdrsfgjhfdgfhgjhvmnvcxgdfsgfhgchmvb cbxfdgrshtfcgh",
       "userItemsId": 12
     },
     {
@@ -458,9 +446,14 @@
       "id": 5
     },
     {
-      "description": "sds",
-      "userItemsId": 1,
-      "id": 6
+      "description": "ZXV cx",
+      "userItemsId": 12,
+      "id": 8
+    },
+    {
+      "description": "≈asdgfg",
+      "userItemsId": 12,
+      "id": 9
     }
   ],
   "moneyresources": [
