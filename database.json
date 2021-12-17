@@ -11,6 +11,12 @@
       "hourlySalary": "10",
       "email": "elliot@elliot.com",
       "id": 2
+    },
+    {
+      "id": 3,
+      "name": "sophia",
+      "email": "sophia@email.com",
+      "hourlySalary": 24
     }
   ],
   "itemtypes": [
@@ -160,7 +166,7 @@
       "userId": 1,
       "hoursNeeded": 0.15,
       "buydifficultyId": 1,
-      "purchased": false,
+      "purchased": true,
       "purchaseby": "2021-12-23"
     },
     {
@@ -335,6 +341,30 @@
       "buydifficultyId": 0,
       "purchased": false,
       "purchaseby": "2021-12-20"
+    },
+    {
+      "id": 32,
+      "useritemtypeId": 21,
+      "price": 10,
+      "name": "Nashville North",
+      "need": true,
+      "userId": 3,
+      "hoursNeeded": 0.5,
+      "buydifficultyId": 1,
+      "purchased": true,
+      "purchaseby": "2021-12-14"
+    },
+    {
+      "id": 33,
+      "useritemtypeId": 29,
+      "price": 100,
+      "name": "sherwin j vargas",
+      "need": true,
+      "userId": 3,
+      "hoursNeeded": 5,
+      "buydifficultyId": 0,
+      "purchased": false,
+      "purchaseby": null
     }
   ],
   "useritemtypes": [
@@ -432,6 +462,61 @@
       "description": "work",
       "userId": 2,
       "id": 19
+    },
+    {
+      "description": "shoes",
+      "userId": 3,
+      "id": 20
+    },
+    {
+      "description": "electronic",
+      "userId": 3,
+      "id": 21
+    },
+    {
+      "description": "toys",
+      "userId": 3,
+      "id": 22
+    },
+    {
+      "description": "appliance",
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "description": "bills",
+      "userId": 3,
+      "id": 24
+    },
+    {
+      "description": "entertainment",
+      "userId": 3,
+      "id": 25
+    },
+    {
+      "description": "credit cards",
+      "userId": 3,
+      "id": 26
+    },
+    {
+      "description": "food",
+      "userId": 3,
+      "id": 27
+    },
+    {
+      "description": "work",
+      "userId": 3,
+      "id": 28
+    },
+    {
+      "description": "car",
+      "userId": 3,
+      "id": 29
+    },
+    {
+      "userId": 3,
+      "description": "yahoo",
+      "id": 30
     }
   ],
   "useritemsnotes": [
@@ -578,6 +663,30 @@
       "url": "www.google.com/travel/flights",
       "userId": 2,
       "id": 10
+    },
+    {
+      "description": "earn cash back shopping",
+      "url": "www.rakuten.com",
+      "userId": 3,
+      "id": 11
+    },
+    {
+      "description": "find coupon codes online",
+      "url": "www.retailmenot.com",
+      "userId": 3,
+      "id": 12
+    },
+    {
+      "description": "offering deals and discounts on a variety of services and products ",
+      "url": "www.groupon.com",
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "description": "search flights accross dates and multiple companies to compare and save ",
+      "url": "www.google.com/travel/flights",
+      "userId": 3,
+      "id": 14
     }
   ],
   "usertipsandtricks": [
@@ -665,6 +774,56 @@
       "description": "Use this app before splurging!",
       "userId": 2,
       "id": 17
+    },
+    {
+      "description": "Learn to budget and understand your finances",
+      "userId": 3,
+      "id": 18
+    },
+    {
+      "description": "Get out of debt!!!!",
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "description": "research  50/30/20 rule",
+      "userId": 3,
+      "id": 20
+    },
+    {
+      "description": "Create a designated savings and spending account",
+      "userId": 3,
+      "id": 21
+    },
+    {
+      "description": "automate your savings and bills",
+      "userId": 3,
+      "id": 22
+    },
+    {
+      "description": "cut back and control your utility bills",
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "description": "Side Hustles!!!",
+      "userId": 3,
+      "id": 24
+    },
+    {
+      "description": "Check for and cancel unused subscriptions",
+      "userId": 3,
+      "id": 25
+    },
+    {
+      "description": "Use this app before splurging!",
+      "userId": 3,
+      "id": 26
+    },
+    {
+      "description": "control and analyze your grocery spending",
+      "userId": 3,
+      "id": 27
     }
   ],
   "buydifficultys": [
@@ -679,6 +838,23 @@
     {
       "id": 3,
       "description": "Hard"
+    }
+  ],
+  "itemrankings": [
+    {
+      "ranking": 1,
+      "itemId": 14,
+      "id": 1
+    },
+    {
+      "ranking": 2,
+      "itemId": 15,
+      "id": 2
+    },
+    {
+      "ranking": 3,
+      "itemId": 16,
+      "id": 3
     }
   ]
 }
