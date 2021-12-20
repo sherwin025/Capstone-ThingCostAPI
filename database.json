@@ -1,22 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
+      "hourlySalary": "20",
       "name": "sherwin j vargas",
       "email": "svargas025@gmail.com",
-      "hourlySalary": 24
-    },
-    {
-      "name": "Elliot",
-      "hourlySalary": "10",
-      "email": "elliot@elliot.com",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "name": "sophia",
-      "email": "sophia@email.com",
-      "hourlySalary": 24
+      "id": 1
     }
   ],
   "itemtypes": [
@@ -59,312 +47,88 @@
   ],
   "useritems": [
     {
-      "id": 2,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars",
-      "need": true,
+      "id": 1,
+      "useritemtypeId": 2,
+      "price": 500,
+      "name": "xbox",
+      "need": false,
       "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 1,
-      "purchased": true
+      "hoursNeeded": 25,
+      "buydifficultyId": 2,
+      "purchased": false,
+      "purchaseby": "2022-02-05"
+    },
+    {
+      "id": 2,
+      "useritemtypeId": 2,
+      "price": 500,
+      "name": "playstation",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 25,
+      "buydifficultyId": 2,
+      "purchased": false,
+      "purchaseby": "2022-02-05"
     },
     {
       "id": 3,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars",
+      "useritemtypeId": 10,
+      "price": 25000,
+      "name": "pickup truck ",
       "need": true,
       "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 2,
-      "purchased": true
+      "hoursNeeded": 1250,
+      "buydifficultyId": 3,
+      "purchased": false,
+      "purchaseby": "2024-06-01"
     },
     {
       "id": 4,
-      "useritemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true
-    },
-    {
-      "id": 5,
-      "useritemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true,
-      "id": 6
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true,
-      "id": 7
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true,
-      "id": 8
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true,
-      "id": 9
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true,
-      "id": 11
-    },
-    {
-      "id": 12,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars!!",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 1,
-      "purchased": true,
-      "purchaseby": "2021-12-23"
-    },
-    {
-      "itemtypeId": 1,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": true,
-      "id": 13
-    },
-    {
-      "id": 14,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "table",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": false,
-      "purchaseby": "2021-12-06"
-    },
-    {
-      "id": 15,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": false,
-      "purchaseby": "2021-12-19"
-    },
-    {
-      "id": 16,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars",
-      "need": true,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 0,
-      "purchased": false,
-      "purchaseby": "2021-12-24"
-    },
-    {
-      "id": 21,
-      "useritemtypeId": null,
-      "price": 3,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.15,
-      "buydifficultyId": 2,
-      "purchased": false,
-      "purchaseby": "2021-11-29"
-    },
-    {
-      "id": 22,
-      "useritemtypeId": 3,
-      "price": 3,
-      "name": "Nashville North",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.125,
-      "buydifficultyId": 3,
-      "purchased": false,
-      "purchaseby": "2022-05-31"
-    },
-    {
-      "id": 23,
-      "useritemtypeId": null,
-      "price": 2,
-      "name": "cars",
-      "need": true,
-      "userId": 2,
-      "hoursNeeded": 0.2,
-      "buydifficultyId": 0,
-      "purchased": true
-    },
-    {
-      "id": 24,
-      "useritemtypeId": 11,
-      "price": 2,
-      "name": "sherwin j vargas",
-      "need": false,
-      "userId": 2,
-      "hoursNeeded": 0.2,
-      "buydifficultyId": 2,
-      "purchased": false,
-      "purchaseby": "2021-12-08"
-    },
-    {
-      "id": 25,
-      "useritemtypeId": 11,
-      "price": 2,
-      "name": "car",
-      "need": false,
-      "userId": 2,
-      "hoursNeeded": 0.2,
-      "buydifficultyId": 0,
-      "purchased": false
-    },
-    {
-      "id": 26,
-      "useritemtypeId": 11,
-      "price": 1,
-      "name": "cars",
-      "need": false,
-      "userId": 2,
-      "hoursNeeded": 0.1,
-      "buydifficultyId": 1,
-      "purchased": false
-    },
-    {
-      "id": 27,
-      "useritemtypeId": null,
-      "price": 2,
-      "name": "cars",
-      "need": false,
-      "userId": 2,
-      "hoursNeeded": 0.2,
-      "buydifficultyId": 0,
-      "purchased": false
-    },
-    {
-      "id": 28,
-      "useritemtypeId": null,
-      "price": 2,
-      "name": "car",
-      "need": true,
-      "userId": 2,
-      "hoursNeeded": 0.2,
-      "buydifficultyId": 0,
-      "purchased": true
-    },
-    {
-      "id": 29,
-      "useritemtypeId": 12,
-      "price": 2,
-      "name": "sherwin vargas",
-      "need": true,
-      "userId": 2,
-      "hoursNeeded": 0.2,
-      "buydifficultyId": 0,
-      "purchased": true
-    },
-    {
-      "id": 30,
       "useritemtypeId": 8,
-      "price": 2,
-      "name": "yum yums",
+      "price": 12,
+      "name": "lunch",
       "need": false,
       "userId": 1,
-      "hoursNeeded": 0.08333333333333333,
+      "hoursNeeded": 0.6,
       "buydifficultyId": 1,
-      "purchased": true,
-      "purchaseby": "2021-12-16"
-    },
-    {
-      "id": 31,
-      "useritemtypeId": 2,
-      "price": 1,
-      "name": "cars",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 0.041666666666666664,
-      "buydifficultyId": 0,
       "purchased": false,
       "purchaseby": "2021-12-20"
     },
     {
-      "id": 32,
-      "useritemtypeId": 21,
-      "price": 10,
-      "name": "Nashville North",
+      "id": 5,
+      "useritemtypeId": 1,
+      "price": 40,
+      "name": "Wedding shoes",
       "need": true,
-      "userId": 3,
-      "hoursNeeded": 0.5,
+      "userId": 1,
+      "hoursNeeded": 2,
       "buydifficultyId": 1,
-      "purchased": true,
-      "purchaseby": "2021-12-14"
+      "purchased": false,
+      "purchaseby": "2022-01-29"
     },
     {
-      "id": 33,
-      "useritemtypeId": 29,
-      "price": 100,
-      "name": "sherwin j vargas",
+      "id": 6,
+      "useritemtypeId": 11,
+      "price": 200,
+      "name": "wedding suit",
       "need": true,
-      "userId": 3,
-      "hoursNeeded": 5,
-      "buydifficultyId": 0,
+      "userId": 1,
+      "hoursNeeded": 10,
+      "buydifficultyId": 1,
       "purchased": false,
-      "purchaseby": null
+      "purchaseby": "2022-01-29"
+    },
+    {
+      "id": 7,
+      "useritemtypeId": 11,
+      "price": 200,
+      "name": "elliot clothes ",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 10,
+      "buydifficultyId": 1,
+      "purchased": false,
+      "purchaseby": "2022-02-08"
     }
   ],
   "useritemtypes": [
@@ -389,12 +153,12 @@
       "id": 4
     },
     {
-      "description": "bills",
+      "description": "entertainment",
       "userId": 1,
       "id": 5
     },
     {
-      "description": "entertainment",
+      "description": "bills",
       "userId": 1,
       "id": 6
     },
@@ -414,131 +178,56 @@
       "id": 9
     },
     {
-      "description": "city",
+      "description": "car",
       "userId": 1,
       "id": 10
     },
     {
-      "description": "shoes",
-      "userId": 2,
+      "description": "Clothes",
+      "userId": 1,
       "id": 11
-    },
-    {
-      "description": "electronic",
-      "userId": 2,
-      "id": 12
-    },
-    {
-      "description": "toys",
-      "userId": 2,
-      "id": 13
-    },
-    {
-      "description": "appliance",
-      "userId": 2,
-      "id": 14
-    },
-    {
-      "description": "entertainment",
-      "userId": 2,
-      "id": 15
-    },
-    {
-      "description": "bills",
-      "userId": 2,
-      "id": 16
-    },
-    {
-      "description": "credit cards",
-      "userId": 2,
-      "id": 17
-    },
-    {
-      "description": "food",
-      "userId": 2,
-      "id": 18
-    },
-    {
-      "description": "work",
-      "userId": 2,
-      "id": 19
-    },
-    {
-      "description": "shoes",
-      "userId": 3,
-      "id": 20
-    },
-    {
-      "description": "electronic",
-      "userId": 3,
-      "id": 21
-    },
-    {
-      "description": "toys",
-      "userId": 3,
-      "id": 22
-    },
-    {
-      "description": "appliance",
-      "userId": 3,
-      "id": 23
-    },
-    {
-      "description": "bills",
-      "userId": 3,
-      "id": 24
-    },
-    {
-      "description": "entertainment",
-      "userId": 3,
-      "id": 25
-    },
-    {
-      "description": "credit cards",
-      "userId": 3,
-      "id": 26
-    },
-    {
-      "description": "food",
-      "userId": 3,
-      "id": 27
-    },
-    {
-      "description": "work",
-      "userId": 3,
-      "id": 28
-    },
-    {
-      "description": "car",
-      "userId": 3,
-      "id": 29
-    },
-    {
-      "userId": 3,
-      "description": "yahoo",
-      "id": 30
     }
   ],
   "useritemsnotes": [
     {
-      "id": 4,
-      "description": "dgsadLKFagsdflkasdhdrsfgjhfdgfhgjhvmnvcxgdfsgfhgchmvb cbxfdgrshtfcgh",
-      "userItemsId": 12
+      "description": "For Johns wedding ",
+      "userItemsId": 5,
+      "id": 1
     },
     {
-      "description": "dg",
-      "userItemsId": 22,
+      "description": "Elliots birthday gift",
+      "userItemsId": 1,
+      "id": 2
+    },
+    {
+      "description": "Sophia's birthday gift ",
+      "userItemsId": 2,
+      "id": 3
+    },
+    {
+      "description": "could also be used for interviews",
+      "userItemsId": 5,
+      "id": 4
+    },
+    {
+      "description": "get an all matching dress shoe",
+      "userItemsId": 5,
       "id": 5
     },
     {
-      "description": "ZXV cx",
-      "userItemsId": 12,
-      "id": 8
+      "description": "Johns weding",
+      "userItemsId": 6,
+      "id": 6
     },
     {
-      "description": "≈asdgfg",
-      "userItemsId": 12,
-      "id": 9
+      "description": "get generic suit to be used on job interviews",
+      "userItemsId": 6,
+      "id": 7
+    },
+    {
+      "description": "his birthday needs new clothes",
+      "userItemsId": 7,
+      "id": 8
     }
   ],
   "moneyresources": [
@@ -629,64 +318,6 @@
       "url": "www.google.com/travel/flights",
       "userId": 1,
       "id": 4
-    },
-    {
-      "description": "yahoo",
-      "url": "yahoo.com",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "userId": 1,
-      "id": 6
-    },
-    {
-      "description": "earn cash back shopping",
-      "url": "www.rakuten.com",
-      "userId": 2,
-      "id": 7
-    },
-    {
-      "description": "find coupon codes online",
-      "url": "www.retailmenot.com",
-      "userId": 2,
-      "id": 8
-    },
-    {
-      "description": "offering deals and discounts on a variety of services and products ",
-      "url": "www.groupon.com",
-      "userId": 2,
-      "id": 9
-    },
-    {
-      "description": "search flights accross dates and multiple companies to compare and save ",
-      "url": "www.google.com/travel/flights",
-      "userId": 2,
-      "id": 10
-    },
-    {
-      "description": "earn cash back shopping",
-      "url": "www.rakuten.com",
-      "userId": 3,
-      "id": 11
-    },
-    {
-      "description": "find coupon codes online",
-      "url": "www.retailmenot.com",
-      "userId": 3,
-      "id": 12
-    },
-    {
-      "description": "offering deals and discounts on a variety of services and products ",
-      "url": "www.groupon.com",
-      "userId": 3,
-      "id": 13
-    },
-    {
-      "description": "search flights accross dates and multiple companies to compare and save ",
-      "url": "www.google.com/travel/flights",
-      "userId": 3,
-      "id": 14
     }
   ],
   "usertipsandtricks": [
@@ -726,104 +357,19 @@
       "id": 7
     },
     {
-      "description": "Learn to budget and understand your finances",
-      "userId": 2,
+      "description": "Check for and cancel unused subscriptions",
+      "userId": 1,
       "id": 8
     },
     {
-      "description": "Get out of debt!!!!",
-      "userId": 2,
+      "description": "Use this app before splurging!",
+      "userId": 1,
       "id": 9
     },
     {
-      "description": "research  50/30/20 rule",
-      "userId": 2,
+      "description": "control and analyze your grocery spending",
+      "userId": 1,
       "id": 10
-    },
-    {
-      "description": "Create a designated savings and spending account",
-      "userId": 2,
-      "id": 11
-    },
-    {
-      "description": "automate your savings and bills",
-      "userId": 2,
-      "id": 12
-    },
-    {
-      "description": "cut back and control your utility bills",
-      "userId": 2,
-      "id": 13
-    },
-    {
-      "description": "Side Hustles!!!",
-      "userId": 2,
-      "id": 14
-    },
-    {
-      "description": "Check for and cancel unused subscriptions",
-      "userId": 2,
-      "id": 15
-    },
-    {
-      "description": "control and analyze your grocery spending",
-      "userId": 2,
-      "id": 16
-    },
-    {
-      "description": "Use this app before splurging!",
-      "userId": 2,
-      "id": 17
-    },
-    {
-      "description": "Learn to budget and understand your finances",
-      "userId": 3,
-      "id": 18
-    },
-    {
-      "description": "Get out of debt!!!!",
-      "userId": 3,
-      "id": 19
-    },
-    {
-      "description": "research  50/30/20 rule",
-      "userId": 3,
-      "id": 20
-    },
-    {
-      "description": "Create a designated savings and spending account",
-      "userId": 3,
-      "id": 21
-    },
-    {
-      "description": "automate your savings and bills",
-      "userId": 3,
-      "id": 22
-    },
-    {
-      "description": "cut back and control your utility bills",
-      "userId": 3,
-      "id": 23
-    },
-    {
-      "description": "Side Hustles!!!",
-      "userId": 3,
-      "id": 24
-    },
-    {
-      "description": "Check for and cancel unused subscriptions",
-      "userId": 3,
-      "id": 25
-    },
-    {
-      "description": "Use this app before splurging!",
-      "userId": 3,
-      "id": 26
-    },
-    {
-      "description": "control and analyze your grocery spending",
-      "userId": 3,
-      "id": 27
     }
   ],
   "buydifficultys": [
@@ -842,19 +388,39 @@
   ],
   "itemrankings": [
     {
-      "ranking": 1,
-      "itemId": 14,
+      "ranking": 3,
+      "itemId": 3,
       "id": 1
     },
     {
-      "ranking": 2,
-      "itemId": 15,
+      "ranking": 3,
+      "itemId": 5,
       "id": 2
     },
     {
-      "ranking": 3,
-      "itemId": 16,
+      "ranking": 2,
+      "itemId": 6,
       "id": 3
+    },
+    {
+      "ranking": 4,
+      "itemId": 7,
+      "id": 4
+    },
+    {
+      "ranking": 3,
+      "itemId": 1,
+      "id": 5
+    },
+    {
+      "ranking": 3,
+      "itemId": 2,
+      "id": 6
+    },
+    {
+      "ranking": 1,
+      "itemId": 4,
+      "id": 7
     }
   ]
 }
