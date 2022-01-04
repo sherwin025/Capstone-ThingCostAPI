@@ -1,10 +1,22 @@
 {
   "users": [
     {
-      "hourlySalary": "20",
-      "name": "sherwin j vargas",
+      "id": 1,
+      "name": "Sherwin j Vargas",
       "email": "svargas025@gmail.com",
-      "id": 1
+      "hourlySalary": 20
+    },
+    {
+      "id": 2,
+      "name": "Sophia Vargas",
+      "email": "Sophia@gmail.com",
+      "hourlySalary": 20
+    },
+    {
+      "id": 3,
+      "name": "Elliot vargas",
+      "email": "Elliot@gmail.com",
+      "hourlySalary": 20
     }
   ],
   "itemtypes": [
@@ -48,95 +60,125 @@
   "useritems": [
     {
       "id": 1,
-      "useritemtypeId": 2,
-      "price": 500,
-      "name": "xbox",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 25,
-      "buydifficultyId": 2,
-      "purchased": false,
-      "purchaseby": "2022-02-05"
-    },
-    {
-      "id": 2,
-      "useritemtypeId": 2,
-      "price": 500,
-      "name": "playstation",
-      "need": false,
-      "userId": 1,
-      "hoursNeeded": 25,
-      "buydifficultyId": 2,
-      "purchased": false,
-      "purchaseby": "2022-02-05"
-    },
-    {
-      "id": 3,
       "useritemtypeId": 10,
       "price": 25000,
-      "name": "pickup truck ",
+      "name": "New truck",
       "need": true,
       "userId": 1,
       "hoursNeeded": 1250,
       "buydifficultyId": 3,
       "purchased": false,
-      "purchaseby": "2024-06-01"
+      "purchaseby": "2022-06-30"
+    },
+    {
+      "id": 2,
+      "useritemtypeId": 11,
+      "price": 1500,
+      "name": "rent",
+      "need": true,
+      "userId": 1,
+      "hoursNeeded": 75,
+      "buydifficultyId": 0,
+      "purchased": false,
+      "purchaseby": "2022-02-01"
     },
     {
       "id": 4,
       "useritemtypeId": 8,
-      "price": 12,
-      "name": "lunch",
-      "need": false,
+      "price": 100,
+      "name": "groceries",
+      "need": true,
       "userId": 1,
-      "hoursNeeded": 0.6,
+      "hoursNeeded": 5,
       "buydifficultyId": 1,
       "purchased": false,
-      "purchaseby": "2021-12-20"
+      "purchaseby": "2022-01-08"
     },
     {
       "id": 5,
-      "useritemtypeId": 1,
-      "price": 40,
-      "name": "Wedding shoes",
+      "useritemtypeId": 11,
+      "price": 150,
+      "name": "Wedding suit",
       "need": true,
       "userId": 1,
-      "hoursNeeded": 2,
-      "buydifficultyId": 1,
+      "hoursNeeded": 7.5,
+      "buydifficultyId": 2,
       "purchased": false,
-      "purchaseby": "2022-01-29"
+      "purchaseby": "2022-02-28"
     },
     {
       "id": 6,
       "useritemtypeId": 11,
-      "price": 200,
-      "name": "wedding suit",
+      "price": 60,
+      "name": "wedding shoes ",
       "need": true,
       "userId": 1,
-      "hoursNeeded": 10,
+      "hoursNeeded": 3,
       "buydifficultyId": 1,
       "purchased": false,
-      "purchaseby": "2022-01-29"
+      "purchaseby": "2022-02-28"
     },
     {
       "id": 7,
       "useritemtypeId": 11,
-      "price": 200,
-      "name": "elliot clothes ",
+      "price": 300,
+      "name": "new clothes",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 15,
+      "buydifficultyId": 0,
+      "purchased": false,
+      "purchaseby": null
+    },
+    {
+      "id": 8,
+      "useritemtypeId": 11,
+      "price": 1500,
+      "name": "rent",
       "need": true,
       "userId": 1,
-      "hoursNeeded": 10,
+      "hoursNeeded": 75,
       "buydifficultyId": 1,
+      "purchased": true,
+      "purchaseby": null
+    },
+    {
+      "id": 9,
+      "useritemtypeId": 12,
+      "price": 400,
+      "name": "playstation 4 ",
+      "need": false,
+      "userId": 1,
+      "buydifficultyId": 0,
+      "purchased": true,
+      "purchaseby": null
+    },
+    {
+      "id": 10,
+      "useritemtypeId": 2,
+      "price": 200,
+      "name": "3rd monitor ",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 10,
+      "buydifficultyId": 2,
       "purchased": false,
-      "purchaseby": "2022-02-08"
+      "purchaseby": "2022-02-01"
+    },
+    {
+      "id": 11,
+      "useritemtypeId": 12,
+      "price": 600,
+      "name": "Playstation 5 ",
+      "need": false,
+      "userId": 1,
+      "hoursNeeded": 30,
+      "buydifficultyId": 3,
+      "purchased": false,
+      "purchaseby": null
     }
   ],
   "useritemtypes": [
-    {
-      "description": "shoes",
-      "userId": 1,
-      "id": 1
-    },
     {
       "description": "electronic",
       "userId": 1,
@@ -146,21 +188,6 @@
       "description": "toys",
       "userId": 1,
       "id": 3
-    },
-    {
-      "description": "appliance",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "description": "entertainment",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "description": "bills",
-      "userId": 1,
-      "id": 6
     },
     {
       "description": "credit cards",
@@ -173,61 +200,116 @@
       "id": 8
     },
     {
-      "description": "work",
-      "userId": 1,
-      "id": 9
-    },
-    {
       "description": "car",
       "userId": 1,
       "id": 10
     },
     {
-      "description": "Clothes",
+      "description": "blow money",
       "userId": 1,
       "id": 11
+    },
+    {
+      "description": "Video Games",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "description": "shoes",
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "description": "entertainment",
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "description": "electronic",
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "description": "toys",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "description": "appliance",
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "description": "bills",
+      "userId": 2,
+      "id": 18
+    },
+    {
+      "description": "credit cards",
+      "userId": 2,
+      "id": 19
+    },
+    {
+      "description": "food",
+      "userId": 2,
+      "id": 20
+    },
+    {
+      "description": "work",
+      "userId": 2,
+      "id": 21
     }
   ],
   "useritemsnotes": [
     {
-      "description": "For Johns wedding ",
+      "description": "Johns wedding ",
       "userItemsId": 5,
       "id": 1
     },
     {
-      "description": "Elliots birthday gift",
-      "userItemsId": 1,
+      "description": "johns wedding ",
+      "userItemsId": 6,
       "id": 2
     },
     {
-      "description": "Sophia's birthday gift ",
-      "userItemsId": 2,
+      "description": "for interviews also",
+      "userItemsId": 6,
       "id": 3
     },
     {
-      "description": "could also be used for interviews",
-      "userItemsId": 5,
+      "description": "need new clothes",
+      "userItemsId": 7,
       "id": 4
     },
     {
-      "description": "get an all matching dress shoe",
-      "userItemsId": 5,
+      "description": "Cars on last leg ",
+      "userItemsId": 1,
       "id": 5
     },
     {
-      "description": "Johns weding",
-      "userItemsId": 6,
+      "description": "Hopefully will last until summer ",
+      "userItemsId": 1,
       "id": 6
     },
     {
-      "description": "get generic suit to be used on job interviews",
-      "userItemsId": 6,
+      "description": "used in projects ",
+      "userItemsId": 10,
       "id": 7
     },
     {
-      "description": "his birthday needs new clothes",
-      "userItemsId": 7,
+      "description": "useful for work ",
+      "userItemsId": 10,
       "id": 8
+    },
+    {
+      "description": "Dont play much to justify ",
+      "userItemsId": 11,
+      "id": 9
+    },
+    {
+      "description": "anniversity dinner ",
+      "userItemsId": 12,
+      "id": 10
     }
   ],
   "moneyresources": [
@@ -296,28 +378,46 @@
   ],
   "usermoneyresources": [
     {
-      "description": "earn cash back shopping",
-      "url": "www.rakuten.com",
+      "description": "Finance info ",
+      "url": "Yahoo.com",
       "userId": 1,
       "id": 1
     },
     {
-      "description": "find coupon codes online",
-      "url": "www.retailmenot.com",
+      "description": "Blackberry stock",
+      "url": "blckberyystock.google.com",
       "userId": 1,
       "id": 2
     },
     {
-      "description": "offering deals and discounts on a variety of services and products ",
-      "url": "www.groupon.com",
+      "description": "Ramsey himself ",
+      "url": "Daveramsey.com",
       "userId": 1,
       "id": 3
     },
     {
+      "description": "earn cash back shopping",
+      "url": "www.rakuten.com",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "description": "find coupon codes online",
+      "url": "www.retailmenot.com",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "description": "offering deals and discounts on a variety of services and products ",
+      "url": "www.groupon.com",
+      "userId": 2,
+      "id": 6
+    },
+    {
       "description": "search flights accross dates and multiple companies to compare and save ",
       "url": "www.google.com/travel/flights",
-      "userId": 1,
-      "id": 4
+      "userId": 2,
+      "id": 7
     }
   ],
   "usertipsandtricks": [
@@ -325,31 +425,6 @@
       "description": "Learn to budget and understand your finances",
       "userId": 1,
       "id": 1
-    },
-    {
-      "description": "Get out of debt!!!!",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "description": "research  50/30/20 rule",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "description": "Create a designated savings and spending account",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "description": "automate your savings and bills",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "description": "cut back and control your utility bills",
-      "userId": 1,
-      "id": 6
     },
     {
       "description": "Side Hustles!!!",
@@ -370,6 +445,56 @@
       "description": "control and analyze your grocery spending",
       "userId": 1,
       "id": 10
+    },
+    {
+      "description": "Learn to budget and understand your finances",
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "description": "Get out of debt!!!!",
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "description": "research  50/30/20 rule",
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "description": "Create a designated savings and spending account",
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "description": "automate your savings and bills",
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "description": "cut back and control your utility bills",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "description": "Side Hustles!!!",
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "description": "Check for and cancel unused subscriptions",
+      "userId": 2,
+      "id": 18
+    },
+    {
+      "description": "Use this app before splurging!",
+      "userId": 2,
+      "id": 19
+    },
+    {
+      "description": "control and analyze your grocery spending",
+      "userId": 2,
+      "id": 20
     }
   ],
   "buydifficultys": [
@@ -388,39 +513,71 @@
   ],
   "itemrankings": [
     {
-      "ranking": 3,
-      "itemId": 3,
+      "ranking": 5,
+      "itemId": 1,
       "id": 1
     },
     {
-      "ranking": 3,
-      "itemId": 5,
+      "ranking": 1,
+      "itemId": 2,
       "id": 2
     },
     {
       "ranking": 2,
-      "itemId": 6,
+      "itemId": 4,
       "id": 3
     },
     {
-      "ranking": 4,
-      "itemId": 7,
+      "ranking": 3,
+      "itemId": 5,
       "id": 4
     },
     {
       "ranking": 3,
-      "itemId": 1,
+      "itemId": 6,
       "id": 5
     },
     {
-      "ranking": 3,
-      "itemId": 2,
+      "ranking": 1,
+      "itemId": 12,
       "id": 6
+    }
+  ],
+  "userPosts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "post": "Saving for a new car pumped!!"
     },
     {
-      "ranking": 1,
-      "itemId": 4,
-      "id": 7
+      "id": 3,
+      "userId": 2,
+      "post": "Could use some help with groceries if anyone is willing and able"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "post": "Excited to save with this app"
+    }
+  ],
+  "userPostsComments": [
+    {
+      "id": 1,
+      "userPostsId": 4,
+      "comment": "Its great you'll enjoy! ",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "userPostsId": 3,
+      "comment": "Message me ill help any way i can",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "comment": "HELLO",
+      "userPostsId": 4,
+      "id": 6
     }
   ]
 }
